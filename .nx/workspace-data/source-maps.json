@@ -1,0 +1,3046 @@
+{
+  "anotate-shell": {
+    "root": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "anotate-shell/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.baseHref": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.postcssConfig": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.vendorChunk": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.webpackConfig": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.serveTarget": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.serveTarget": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.serveTarget": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "anotate-shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/controls": {
+    "root": [
+      "libs/controls/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "libs/controls/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "libs/controls/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "libs/controls/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "libs/controls/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/controls/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/controls/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/controls/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "libs/controls/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/services": {
+    "root": [
+      "libs/services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "libs/services/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "libs/services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "libs/services/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "libs/services/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/services/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/services/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/services/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "libs/services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/utils": {
+    "root": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "libs/utils/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "libs/utils/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "microapps/anotate_imagecreation": {
+    "root": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "microapps/anotate_imagecreation/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.baseHref": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.postcssConfig": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.vendorChunk": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.webpackConfig": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.serveTarget": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.serveTarget": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.serveTarget": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "microapps/anotate_imagecreation/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "microapps/anotate_imagedetection": {
+    "root": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "microapps/anotate_imagedetection/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.baseHref": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.postcssConfig": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.vendorChunk": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.webpackConfig": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.serveTarget": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.serveTarget": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.serveTarget": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "microapps/anotate_imagedetection/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "microapps/anotate_imagesearch": {
+    "root": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "microapps/anotate_imagesearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.baseHref": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.postcssConfig": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.vendorChunk": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.webpackConfig": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.serveTarget": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.serveTarget": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.serveTarget": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "microapps/anotate_imagesearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "microapps/anotate_imagesimilaritysearch": {
+    "root": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.baseHref": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.postcssConfig": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.vendorChunk": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.webpackConfig": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.serveTarget": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.serveTarget": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.serveTarget": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "microapps/anotate_imagesimilaritysearch/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

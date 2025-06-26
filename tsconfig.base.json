@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@bosch-annotate/anotate-controls": ["libs/controls/src/index.ts"],
+      "@bosch-annotate/anotate-services": ["libs/services/src/index.ts"],
+      "@bosch-annotate/anotate-styles": ["libs/utils/src/index.ts"],
+      "anotate_imagecreation/Module": [
+        "microapps/anotate_imagecreation/src/remote-entry.ts"
+      ],
+      "anotate_imagedetection/Module": [
+        "microapps/anotate_imagedetection/src/remote-entry.ts"
+      ],
+      "anotate_imagesearch/Module": [
+        "microapps/anotate_imagesearch/src/remote-entry.ts"
+      ],
+      "anotate_imagesimilaritysearch/Module": [
+        "microapps/anotate_imagesimilaritysearch/src/remote-entry.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

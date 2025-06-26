@@ -1,0 +1,93 @@
+{
+  "name": "anotate_imagecreation",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "microapps/anotate_imagecreation/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/microapps/anotate_imagecreation",
+        "index": "microapps/anotate_imagecreation/src/index.html",
+        "baseHref": "/",
+        "main": "microapps/anotate_imagecreation/src/main.ts",
+        "tsConfig": "microapps/anotate_imagecreation/tsconfig.app.json",
+        "assets": [
+          "microapps/anotate_imagecreation/src/favicon.ico",
+          "microapps/anotate_imagecreation/src/assets"
+        ],
+        "styles": ["microapps/anotate_imagecreation/src/styles.css"],
+        "scripts": [],
+        "webpackConfig": "microapps/anotate_imagecreation/webpack.config.ts",
+        "postcssConfig": "microapps/anotate_imagecreation/postcss.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "microapps/anotate_imagecreation/src/environments/environment.ts",
+              "with": "microapps/anotate_imagecreation/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "webpackConfig": "microapps/anotate_imagecreation/webpack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "anotate_imagecreation:build",
+        "hmr": true,
+        "port": 4204
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "anotate_imagecreation:build:development"
+        },
+        "production": {
+          "buildTarget": "anotate_imagecreation:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/react:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "anotate_imagecreation:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "anotate_imagecreation:serve:development"
+        },
+        "production": {
+          "serveTarget": "anotate_imagecreation:serve:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "microapps/anotate_imagecreation/jest.config.ts"
+      }
+    }
+  }
+}

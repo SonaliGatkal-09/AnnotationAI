@@ -1,0 +1,1156 @@
+{
+  "id": "anotate_imagesearch",
+  "name": "anotate_imagesearch",
+  "metaData": {
+    "name": "anotate_imagesearch",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@bosch-annotate/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "anotate_imagesearch",
+    "pluginVersion": "0.6.16",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "anotate_imagesearch:@bosch-annotate/anotate-controls",
+      "name": "@bosch-annotate/anotate-controls",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8495.js",
+            "869.js",
+            "4357.js",
+            "9073.js",
+            "1512.js",
+            "45.js",
+            "5699.js",
+            "7764.js",
+            "5139.js",
+            "1332.js",
+            "2789.js",
+            "7044.js",
+            "3663.js",
+            "368.js",
+            "3936.js",
+            "5877.js",
+            "2217.js",
+            "2761.js",
+            "9779.js",
+            "7884.js",
+            "1243.js",
+            "9872.js",
+            "824.js",
+            "2206.js",
+            "455.js",
+            "1705.js",
+            "4511.js",
+            "3242.js",
+            "3715.js",
+            "9577.js",
+            "3002.js",
+            "9927.js",
+            "5982.js",
+            "9294.js",
+            "9083.js",
+            "6952.js",
+            "7224.js",
+            "904.js",
+            "1582.js",
+            "9930.js",
+            "9633.js",
+            "5565.js",
+            "6118.js",
+            "9723.js",
+            "8485.js",
+            "80.js",
+            "568.js",
+            "6214.js"
+          ],
+          "sync": [
+            "476.js",
+            "8095.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-accordion",
+      "name": "@radix-ui/react-accordion",
+      "version": "1.2.0",
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js",
+            "368.js"
+          ],
+          "sync": [
+            "869.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-alert-dialog",
+      "name": "@radix-ui/react-alert-dialog",
+      "version": "1.1.1",
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "5877.js",
+            "80.js",
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "1512.js",
+            "9131.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-aspect-ratio",
+      "name": "@radix-ui/react-aspect-ratio",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "5383.js",
+            "7764.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-avatar",
+      "name": "@radix-ui/react-avatar",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "5139.js",
+            "7520.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-checkbox",
+      "name": "@radix-ui/react-checkbox",
+      "version": "1.1.1",
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "3663.js",
+            "6044.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-collapsible",
+      "name": "@radix-ui/react-collapsible",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "368.js",
+            "7987.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-context-menu",
+      "name": "@radix-ui/react-context-menu",
+      "version": "2.2.1",
+      "singleton": true,
+      "requiredVersion": "^2.2.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "6546.js",
+            "7884.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-dialog",
+      "name": "@radix-ui/react-dialog",
+      "version": "1.0.5",
+      "singleton": true,
+      "requiredVersion": "^1.1.2",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "568.js",
+            "45.js"
+          ],
+          "sync": [
+            "6214.js",
+            "80.js",
+            "2217.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-dropdown-menu",
+      "name": "@radix-ui/react-dropdown-menu",
+      "version": "2.1.1",
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "266.js",
+            "9872.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-hover-card",
+      "name": "@radix-ui/react-hover-card",
+      "version": "1.1.1",
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "455.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-label",
+      "name": "@radix-ui/react-label",
+      "version": "2.1.0",
+      "singleton": true,
+      "requiredVersion": "^2.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "2206.js",
+            "9825.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-menubar",
+      "name": "@radix-ui/react-menubar",
+      "version": "1.1.1",
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "2845.js",
+            "4511.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-navigation-menu",
+      "name": "@radix-ui/react-navigation-menu",
+      "version": "1.2.0",
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3242.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-popover",
+      "name": "@radix-ui/react-popover",
+      "version": "1.1.1",
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3715.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-progress",
+      "name": "@radix-ui/react-progress",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "1958.js",
+            "9577.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-radio-group",
+      "name": "@radix-ui/react-radio-group",
+      "version": "1.2.0",
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3002.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-scroll-area",
+      "name": "@radix-ui/react-scroll-area",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "5982.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-select",
+      "name": "@radix-ui/react-select",
+      "version": "2.1.1",
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "9294.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-separator",
+      "name": "@radix-ui/react-separator",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "1464.js",
+            "9083.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-slider",
+      "name": "@radix-ui/react-slider",
+      "version": "1.2.0",
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "7224.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-slot",
+      "name": "@radix-ui/react-slot",
+      "version": "1.0.2",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "568.js",
+            "8187.js",
+            "45.js",
+            "2426.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-switch",
+      "name": "@radix-ui/react-switch",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "7549.js",
+            "9930.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-tabs",
+      "name": "@radix-ui/react-tabs",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "9633.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-toast",
+      "name": "@radix-ui/react-toast",
+      "version": "1.2.1",
+      "singleton": true,
+      "requiredVersion": "^1.2.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "5565.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-toggle-group",
+      "name": "@radix-ui/react-toggle-group",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js",
+            "6118.js"
+          ],
+          "sync": [
+            "9723.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-toggle",
+      "name": "@radix-ui/react-toggle",
+      "version": "1.1.0",
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3737.js",
+            "6118.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:@radix-ui/react-tooltip",
+      "name": "@radix-ui/react-tooltip",
+      "version": "1.1.4",
+      "singleton": true,
+      "requiredVersion": "^1.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "6952.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:class-variance-authority",
+      "name": "class-variance-authority",
+      "version": "0.7.1",
+      "singleton": true,
+      "requiredVersion": "^0.7.1",
+      "assets": {
+        "js": {
+          "async": [
+            "4357.js"
+          ],
+          "sync": [
+            "5699.js",
+            "8080.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:clsx",
+      "name": "clsx",
+      "version": "2.1.1",
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "4357.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:cmdk",
+      "name": "cmdk",
+      "version": "1.0.0",
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "568.js",
+            "5877.js",
+            "6214.js"
+          ],
+          "sync": [
+            "1555.js",
+            "3936.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:embla-carousel-react",
+      "name": "embla-carousel-react",
+      "version": "8.3.0",
+      "singleton": true,
+      "requiredVersion": "^8.3.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "2789.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:input-otp",
+      "name": "input-otp",
+      "version": "1.2.4",
+      "singleton": true,
+      "requiredVersion": "^1.2.4",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "1705.js",
+            "4086.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:lucide-react",
+      "name": "lucide-react",
+      "version": "0.462.0",
+      "singleton": true,
+      "requiredVersion": "^0.462.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "8495.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:next-themes",
+      "name": "next-themes",
+      "version": "0.3.0",
+      "singleton": true,
+      "requiredVersion": "^0.3.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "904.js",
+            "8523.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:react-day-picker",
+      "name": "react-day-picker",
+      "version": "8.10.1",
+      "singleton": true,
+      "requiredVersion": "^8.10.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "1332.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "8485.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:react-hook-form",
+      "name": "react-hook-form",
+      "version": "7.53.0",
+      "singleton": true,
+      "requiredVersion": "^7.53.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "824.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:react-resizable-panels",
+      "name": "react-resizable-panels",
+      "version": "2.1.3",
+      "singleton": true,
+      "requiredVersion": "^2.1.3",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "9927.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "7552.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:recharts",
+      "name": "recharts",
+      "version": "2.12.7",
+      "singleton": true,
+      "requiredVersion": "^2.12.7",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "4357.js"
+          ],
+          "sync": [
+            "7044.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:sonner",
+      "name": "sonner",
+      "version": "1.5.0",
+      "singleton": true,
+      "requiredVersion": "^1.5.0",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js"
+          ],
+          "sync": [
+            "1582.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:tailwind-merge",
+      "name": "tailwind-merge",
+      "version": "2.5.2",
+      "singleton": true,
+      "requiredVersion": "^2.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "9073.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "anotate_imagesearch:vaul",
+      "name": "vaul",
+      "version": "0.9.3",
+      "singleton": true,
+      "requiredVersion": "^0.9.3",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "5877.js",
+            "2217.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "1243.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "anotate_imagesearch:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Module.js"
+          ],
+          "async": [
+            "7552.js",
+            "8495.js",
+            "8095.js",
+            "869.js",
+            "4357.js",
+            "9073.js",
+            "1512.js",
+            "45.js",
+            "5699.js",
+            "7764.js",
+            "5139.js",
+            "1332.js",
+            "2789.js",
+            "7044.js",
+            "3663.js",
+            "368.js",
+            "3936.js",
+            "5877.js",
+            "2217.js",
+            "2761.js",
+            "9779.js",
+            "7884.js",
+            "1243.js",
+            "9872.js",
+            "824.js",
+            "2206.js",
+            "455.js",
+            "1705.js",
+            "4511.js",
+            "3242.js",
+            "3715.js",
+            "9577.js",
+            "3002.js",
+            "9927.js",
+            "5982.js",
+            "9294.js",
+            "9083.js",
+            "6952.js",
+            "7224.js",
+            "904.js",
+            "1582.js",
+            "9930.js",
+            "9633.js",
+            "5565.js",
+            "6118.js",
+            "9723.js",
+            "8485.js",
+            "80.js",
+            "568.js",
+            "6214.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

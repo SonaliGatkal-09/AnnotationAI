@@ -1,0 +1,1492 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.2.0",
+  "pathMappings": {
+    "@bosch-annotate/anotate-controls": [
+      "libs/controls/src/index.ts"
+    ],
+    "@bosch-annotate/anotate-services": [
+      "libs/services/src/index.ts"
+    ],
+    "@bosch-annotate/anotate-styles": [
+      "libs/utils/src/index.ts"
+    ],
+    "anotate_imagecreation/Module": [
+      "microapps/anotate_imagecreation/src/remote-entry.ts"
+    ],
+    "anotate_imagedetection/Module": [
+      "microapps/anotate_imagedetection/src/remote-entry.ts"
+    ],
+    "anotate_imagesearch/Module": [
+      "microapps/anotate_imagesearch/src/remote-entry.ts"
+    ],
+    "anotate_imagesimilaritysearch/Module": [
+      "microapps/anotate_imagesimilaritysearch/src/remote-entry.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "eslint:lint"
+      }
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18435103667633526488"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vs/VSWorkspaceState.json",
+        "hash": "3485966432490514730"
+      },
+      {
+        "file": ".vs/anotate-shell/FileContentIndex/64729c4b-f18a-4197-bfb0-02b0ce712fed.vsidx",
+        "hash": "14541463808078803006"
+      },
+      {
+        "file": ".vs/anotate-shell/v17/.wsuo",
+        "hash": "13489696123306697552"
+      },
+      {
+        "file": ".vs/anotate-shell/v17/DocumentLayout.json",
+        "hash": "1962190030243451325"
+      },
+      {
+        "file": ".vs/slnx.sqlite",
+        "hash": "14848019413930402127"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "4748908159742067723"
+      },
+      {
+        "file": "README.md",
+        "hash": "4252775193620455616"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12635995425621365241"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11609906261616239826"
+      },
+      {
+        "file": "package.json",
+        "hash": "1544855684049930269"
+      },
+      {
+        "file": "postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "7986470667704694812"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18367966242116974985"
+      }
+    ],
+    "projectFileMap": {
+      "anotate-controls": [
+        {
+          "file": "libs/controls/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/controls/README.md",
+          "hash": "9323268940999815501"
+        },
+        {
+          "file": "libs/controls/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/controls/package.json",
+          "hash": "5641116369804625726"
+        },
+        {
+          "file": "libs/controls/project.json",
+          "hash": "3095680351595704430"
+        },
+        {
+          "file": "libs/controls/src/index.ts",
+          "hash": "16293764500184181393"
+        },
+        {
+          "file": "libs/controls/src/lib/hooks/use-mobile.tsx",
+          "hash": "14900138732519213047",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/hooks/use-toast.ts",
+          "hash": "16882284538177563600",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/ModelSelector.tsx",
+          "hash": "804209015698734088",
+          "deps": [
+            "npm:lucide-react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/accordion.tsx",
+          "hash": "4587610806225982867",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-accordion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/alert-dialog.tsx",
+          "hash": "4542351413868507776",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-alert-dialog"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/alert.tsx",
+          "hash": "568979528092100455",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/aspect-ratio.tsx",
+          "hash": "12340592216594228921",
+          "deps": [
+            "npm:@radix-ui/react-aspect-ratio"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/avatar.tsx",
+          "hash": "3821510754492901158",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-avatar"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/badge.tsx",
+          "hash": "8405789658058270376",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/breadcrumb.tsx",
+          "hash": "7685416658722416191",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/button.tsx",
+          "hash": "1925802362789954499",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/calendar.tsx",
+          "hash": "9312011775998038293",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:react-day-picker"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/card.tsx",
+          "hash": "14644492581828021893",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/carousel.tsx",
+          "hash": "8448168011594567745",
+          "deps": [
+            "npm:react",
+            "npm:embla-carousel-react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/chart.tsx",
+          "hash": "14992936250632291997",
+          "deps": [
+            "npm:react",
+            "npm:recharts"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/checkbox.tsx",
+          "hash": "13902593957892129671",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-checkbox",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/collapsible.tsx",
+          "hash": "8040382521055521536",
+          "deps": [
+            "npm:@radix-ui/react-collapsible"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/command.tsx",
+          "hash": "2236439738023933665",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-dialog",
+            "npm:cmdk",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/context-menu.tsx",
+          "hash": "3756386077847807297",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-context-menu",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/dialog.tsx",
+          "hash": "16294423967099969285",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-dialog",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/drawer.tsx",
+          "hash": "9660874015595384587",
+          "deps": [
+            "npm:react",
+            "npm:vaul"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/dropdown-menu.tsx",
+          "hash": "4542090057266859533",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-dropdown-menu",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/form.tsx",
+          "hash": "829062235513360899",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-slot",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/hover-card.tsx",
+          "hash": "2572681080093034537",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-hover-card"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/input-otp.tsx",
+          "hash": "9983082853148905587",
+          "deps": [
+            "npm:react",
+            "npm:input-otp",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/input.tsx",
+          "hash": "3815701562500211894",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/label.tsx",
+          "hash": "5537919067166462959",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-label",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/menubar.tsx",
+          "hash": "16605346291733703451",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-menubar",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/navigation-menu.tsx",
+          "hash": "18119927932547390972",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-navigation-menu",
+            "npm:class-variance-authority",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/pagination.tsx",
+          "hash": "8490029143548624878",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/popover.tsx",
+          "hash": "17081514263069837369",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-popover"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/progress.tsx",
+          "hash": "2422899267103654639",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-progress"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/radio-group.tsx",
+          "hash": "1226738410141806556",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-radio-group",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/resizable.tsx",
+          "hash": "12074215524138212868",
+          "deps": [
+            "npm:lucide-react",
+            "npm:react-resizable-panels"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/scroll-area.tsx",
+          "hash": "15364904816564202381",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-scroll-area"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/select.tsx",
+          "hash": "6510411024829238124",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-select",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/separator.tsx",
+          "hash": "8916459916618976545",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-separator"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/sheet.tsx",
+          "hash": "6288645640234204731",
+          "deps": [
+            "npm:@radix-ui/react-dialog",
+            "npm:class-variance-authority",
+            "npm:lucide-react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/sidebar.tsx",
+          "hash": "16326335526286571464",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/skeleton.tsx",
+          "hash": "2693918005401717826"
+        },
+        {
+          "file": "libs/controls/src/lib/ui/slider.tsx",
+          "hash": "16712598549997309808",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slider"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/sonner.tsx",
+          "hash": "8069787631781441444",
+          "deps": [
+            "npm:next-themes",
+            "npm:sonner"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/switch.tsx",
+          "hash": "7555559924193078128",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-switch"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/table.tsx",
+          "hash": "10307166433703073113",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/tabs.tsx",
+          "hash": "12127887921915388003",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-tabs"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/textarea.tsx",
+          "hash": "3430208856417494198",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/toast.tsx",
+          "hash": "8686559446983564060",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-toast",
+            "npm:class-variance-authority",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/toaster.tsx",
+          "hash": "17715166001871370440"
+        },
+        {
+          "file": "libs/controls/src/lib/ui/toggle-group.tsx",
+          "hash": "15587078161524380962",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-toggle-group",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/toggle.tsx",
+          "hash": "6069631336600034967",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-toggle",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/tooltip.tsx",
+          "hash": "7689484327215965451",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-tooltip"
+          ]
+        },
+        {
+          "file": "libs/controls/src/lib/ui/use-toast.ts",
+          "hash": "13749322089914932848"
+        },
+        {
+          "file": "libs/controls/src/lib/utils.ts",
+          "hash": "6483145186850064023",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "libs/controls/tsconfig.json",
+          "hash": "16310129786591335633"
+        },
+        {
+          "file": "libs/controls/tsconfig.lib.json",
+          "hash": "11908890256657676622"
+        },
+        {
+          "file": "libs/controls/vite.config.ts",
+          "hash": "12617727876845662220",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "anotate_imagedetection": [
+        {
+          "file": "microapps/anotate_imagedetection/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/jest.config.ts",
+          "hash": "10185058902464115048"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/module-federation.config.ts",
+          "hash": "16843868314402753620",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/project.json",
+          "hash": "6085829182183585254"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/app/app.spec.tsx",
+          "hash": "56756752577893206",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/app/app.tsx",
+          "hash": "8729027760822628509"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/app/components/AnnotationCanvas.tsx",
+          "hash": "10944688308042447483",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "anotate-controls"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/app/components/ObjectDetection.tsx",
+          "hash": "10982932076200611350",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "anotate-controls"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/bootstrap.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/index.html",
+          "hash": "10306976846110350821"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/main.ts",
+          "hash": "10018980967429810802"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/remote-entry.ts",
+          "hash": "16889477869301519830"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/src/styles.css",
+          "hash": "8742025062644952044"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/tailwind.config.js",
+          "hash": "16152267657742286883",
+          "deps": [
+            "npm:@nx/react",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagedetection/tsconfig.app.json",
+          "hash": "15147195313780277677"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/webpack.config.prod.ts",
+          "hash": "3215656518859184930"
+        },
+        {
+          "file": "microapps/anotate_imagedetection/webpack.config.ts",
+          "hash": "5067379309300894553",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ],
+      "anotate_imagesimilaritysearch": [
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/jest.config.ts",
+          "hash": "2257096797904109699"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/module-federation.config.ts",
+          "hash": "1708017816378757199",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/project.json",
+          "hash": "12188293350281037624"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/app/app.spec.tsx",
+          "hash": "4848785317149894052",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/app/app.tsx",
+          "hash": "17178004223848236979"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/app/components/ImageCard.tsx",
+          "hash": "6720166669969953793",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "anotate-controls"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/app/components/similaritysearchcomponent.tsx",
+          "hash": "1385621230544209315",
+          "deps": [
+            "npm:react",
+            "anotate-controls",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/bootstrap.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/index.html",
+          "hash": "202824714872659676"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/main.ts",
+          "hash": "10018980967429810802"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/remote-entry.ts",
+          "hash": "16889477869301519830"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/src/styles.css",
+          "hash": "8742025062644952044"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/tailwind.config.js",
+          "hash": "16152267657742286883",
+          "deps": [
+            "npm:@nx/react",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/tsconfig.app.json",
+          "hash": "15147195313780277677"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/webpack.config.prod.ts",
+          "hash": "3215656518859184930"
+        },
+        {
+          "file": "microapps/anotate_imagesimilaritysearch/webpack.config.ts",
+          "hash": "5067379309300894553",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ],
+      "anotate-styles": [
+        {
+          "file": "libs/utils/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/utils/README.md",
+          "hash": "5223074691342699260"
+        },
+        {
+          "file": "libs/utils/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/utils/package.json",
+          "hash": "15814903088790258311"
+        },
+        {
+          "file": "libs/utils/project.json",
+          "hash": "11127141927842741794"
+        },
+        {
+          "file": "libs/utils/src/index.ts",
+          "hash": "3868731636250400986"
+        },
+        {
+          "file": "libs/utils/src/lib/anotate-styles.tsx",
+          "hash": "9324095379631964989"
+        },
+        {
+          "file": "libs/utils/tsconfig.json",
+          "hash": "16310129786591335633"
+        },
+        {
+          "file": "libs/utils/tsconfig.lib.json",
+          "hash": "11908890256657676622"
+        },
+        {
+          "file": "libs/utils/vite.config.ts",
+          "hash": "7581420325078429138",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "anotate_imagecreation": [
+        {
+          "file": "microapps/anotate_imagecreation/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagecreation/jest.config.ts",
+          "hash": "13477455829203027472"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/module-federation.config.ts",
+          "hash": "12294922914134712502",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagecreation/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/project.json",
+          "hash": "14210966890812913063"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/app/app.spec.tsx",
+          "hash": "4493431257910949414",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/app/app.tsx",
+          "hash": "2592816143079432891"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/app/components/ImageGeneration.tsx",
+          "hash": "9558229468801419938",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "anotate-controls"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/bootstrap.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/index.html",
+          "hash": "5714777126298089863"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/main.ts",
+          "hash": "10018980967429810802"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/remote-entry.ts",
+          "hash": "16889477869301519830"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/src/styles.css",
+          "hash": "8742025062644952044"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/tailwind.config.js",
+          "hash": "16152267657742286883",
+          "deps": [
+            "npm:@nx/react",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagecreation/tsconfig.app.json",
+          "hash": "15147195313780277677"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/tsconfig.json",
+          "hash": "11732942561571273634"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/webpack.config.prod.ts",
+          "hash": "3215656518859184930"
+        },
+        {
+          "file": "microapps/anotate_imagecreation/webpack.config.ts",
+          "hash": "5067379309300894553",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ],
+      "anotate_imagesearch": [
+        {
+          "file": "microapps/anotate_imagesearch/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/jest.config.ts",
+          "hash": "18034797362092426956"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/module-federation.config.ts",
+          "hash": "4174424319575504676",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/project.json",
+          "hash": "5763711331903768596"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/app/app.spec.tsx",
+          "hash": "10611140520054493330",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/app/app.tsx",
+          "hash": "7889045419629144519"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/app/components/ImageCard.tsx",
+          "hash": "6720166669969953793",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "anotate-controls"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/app/components/ImageSearch.tsx",
+          "hash": "8503027985310713882",
+          "deps": [
+            "npm:react",
+            "anotate-controls",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/app/components/SearchBar.tsx",
+          "hash": "14850927738828603763",
+          "deps": [
+            "npm:lucide-react",
+            "anotate-controls"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/bootstrap.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/index.html",
+          "hash": "13615149637469196626"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/main.ts",
+          "hash": "10018980967429810802"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/remote-entry.ts",
+          "hash": "16889477869301519830"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/src/styles.css",
+          "hash": "8742025062644952044"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/tailwind.config.js",
+          "hash": "16152267657742286883",
+          "deps": [
+            "npm:@nx/react",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "microapps/anotate_imagesearch/tsconfig.app.json",
+          "hash": "15147195313780277677"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/webpack.config.prod.ts",
+          "hash": "3215656518859184930"
+        },
+        {
+          "file": "microapps/anotate_imagesearch/webpack.config.ts",
+          "hash": "5067379309300894553",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ],
+      "anotate-services": [
+        {
+          "file": "libs/services/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/services/README.md",
+          "hash": "5167918967758269812"
+        },
+        {
+          "file": "libs/services/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/services/package.json",
+          "hash": "5450350973916621702"
+        },
+        {
+          "file": "libs/services/project.json",
+          "hash": "9202514580607588132"
+        },
+        {
+          "file": "libs/services/src/index.ts",
+          "hash": "16428497368063589297"
+        },
+        {
+          "file": "libs/services/src/lib/api.ts",
+          "hash": "11161843123112946887",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/services/src/lib/config/axiosInit.ts",
+          "hash": "2496856633152305196",
+          "deps": [
+            "npm:axios",
+            "npm:axios-retry"
+          ]
+        },
+        {
+          "file": "libs/services/src/lib/config/httpClient.ts",
+          "hash": "9035767739569798981",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/services/src/lib/constants.ts",
+          "hash": "14527698510104617299"
+        },
+        {
+          "file": "libs/services/src/lib/dashboardservice.ts",
+          "hash": "13769464410855524653",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/services/src/lib/imagecreationservice.ts",
+          "hash": "9010020099335059105"
+        },
+        {
+          "file": "libs/services/src/lib/imagedetectionservice.ts",
+          "hash": "2406370002232415482"
+        },
+        {
+          "file": "libs/services/src/lib/imagesearchservice.ts",
+          "hash": "1749702672811991567"
+        },
+        {
+          "file": "libs/services/src/lib/imagesimilaritysearchservice.ts",
+          "hash": "11032601730683459104"
+        },
+        {
+          "file": "libs/services/tsconfig.json",
+          "hash": "16310129786591335633"
+        },
+        {
+          "file": "libs/services/tsconfig.lib.json",
+          "hash": "11908890256657676622"
+        },
+        {
+          "file": "libs/services/vite.config.ts",
+          "hash": "11319351127308136079",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "anotate-shell": [
+        {
+          "file": "anotate-shell/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "anotate-shell/eslint.config.js",
+          "hash": "6898695751728726704",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "anotate-shell/jest.config.ts",
+          "hash": "5642387764116953026"
+        },
+        {
+          "file": "anotate-shell/module-federation.config.ts",
+          "hash": "11352365699477226059",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "anotate-shell/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "anotate-shell/project.json",
+          "hash": "5193559897088545750"
+        },
+        {
+          "file": "anotate-shell/src/app/app.spec.tsx",
+          "hash": "10264950015251847356",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/app.tsx",
+          "hash": "8060889016385630752",
+          "deps": [
+            "npm:react",
+            "anotate-controls",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/components/AnalyticsDashboard.tsx",
+          "hash": "9405076059907708579",
+          "deps": [
+            "npm:lucide-react",
+            "anotate-controls",
+            "npm:recharts",
+            "anotate-services",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/components/Header.tsx",
+          "hash": "14084940834281908884",
+          "deps": [
+            "npm:lucide-react",
+            "anotate-controls",
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/contexts/AuthContext.tsx",
+          "hash": "2232646934219380476",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "anotate-shell/src/app/pages/Login.tsx",
+          "hash": "2135159348231953228",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/pages/layout.tsx",
+          "hash": "12316384900911454281",
+          "deps": [
+            "npm:react",
+            "anotate-controls",
+            "npm:lucide-react",
+            "npm:react-router-dom",
+            [
+              "anotate_imagecreation",
+              "dynamic"
+            ],
+            [
+              "anotate_imagesimilaritysearch",
+              "dynamic"
+            ],
+            [
+              "anotate_imagesearch",
+              "dynamic"
+            ],
+            [
+              "anotate_imagedetection",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/routes/AppRouting.tsx",
+          "hash": "12073140724821191319",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            [
+              "anotate_imagecreation",
+              "dynamic"
+            ],
+            [
+              "anotate_imagesimilaritysearch",
+              "dynamic"
+            ],
+            [
+              "anotate_imagesearch",
+              "dynamic"
+            ],
+            [
+              "anotate_imagedetection",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/routes/routes.tsx",
+          "hash": "410364186655139155",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/app/services/api.ts",
+          "hash": "10570123396049093363",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "anotate-shell/src/bootstrap.tsx",
+          "hash": "3591261625686261060",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "anotate-shell/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "anotate-shell/src/index.html",
+          "hash": "14620913539997078430"
+        },
+        {
+          "file": "anotate-shell/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "anotate-shell/src/styles.css",
+          "hash": "3894137342811963703"
+        },
+        {
+          "file": "anotate-shell/tailwind.config.js",
+          "hash": "11751550318789391282",
+          "deps": [
+            "npm:@nx/react",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "anotate-shell/tsconfig.app.json",
+          "hash": "16536883993834092355"
+        },
+        {
+          "file": "anotate-shell/tsconfig.json",
+          "hash": "17849894785030224090"
+        },
+        {
+          "file": "anotate-shell/tsconfig.spec.json",
+          "hash": "6810478594055726884"
+        },
+        {
+          "file": "anotate-shell/webpack.config.prod.ts",
+          "hash": "18300769885186706189",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "anotate-shell/webpack.config.ts",
+          "hash": "6453452324086709070",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ]
+    }
+  }
+}

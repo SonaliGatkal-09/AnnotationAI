@@ -1,0 +1,93 @@
+{
+  "name": "anotate_imagesearch",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "microapps/anotate_imagesearch/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/microapps/anotate_imagesearch",
+        "index": "microapps/anotate_imagesearch/src/index.html",
+        "baseHref": "/",
+        "main": "microapps/anotate_imagesearch/src/main.ts",
+        "tsConfig": "microapps/anotate_imagesearch/tsconfig.app.json",
+        "assets": [
+          "microapps/anotate_imagesearch/src/favicon.ico",
+          "microapps/anotate_imagesearch/src/assets"
+        ],
+        "styles": ["microapps/anotate_imagesearch/src/styles.css"],
+        "scripts": [],
+        "webpackConfig": "microapps/anotate_imagesearch/webpack.config.ts",
+        "postcssConfig": "microapps/anotate_imagesearch/postcss.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "microapps/anotate_imagesearch/src/environments/environment.ts",
+              "with": "microapps/anotate_imagesearch/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "webpackConfig": "microapps/anotate_imagesearch/webpack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "anotate_imagesearch:build",
+        "hmr": true,
+        "port": 4202
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "anotate_imagesearch:build:development"
+        },
+        "production": {
+          "buildTarget": "anotate_imagesearch:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/react:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "anotate_imagesearch:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "anotate_imagesearch:serve:development"
+        },
+        "production": {
+          "serveTarget": "anotate_imagesearch:serve:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "microapps/anotate_imagesearch/jest.config.ts"
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "anotate-shell",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "anotate-shell/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/anotate-shell",
+        "index": "anotate-shell/src/index.html",
+        "baseHref": "/",
+        "main": "anotate-shell/src/main.ts",
+        "tsConfig": "anotate-shell/tsconfig.app.json",
+        "assets": ["anotate-shell/src/favicon.ico", "anotate-shell/src/assets"],
+        "styles": ["anotate-shell/src/styles.css"],
+        "scripts": [],
+        "webpackConfig": "anotate-shell/webpack.config.ts",
+        "postcssConfig": "anotate-shell/postcss.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "anotate-shell/src/environments/environment.ts",
+              "with": "anotate-shell/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "webpackConfig": "anotate-shell/webpack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "anotate-shell:build",
+        "hmr": true,
+        "port": 4200
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "anotate-shell:build:development"
+        },
+        "production": {
+          "buildTarget": "anotate-shell:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "serve-static": {
+      "executor": "@nx/react:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "anotate-shell:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "anotate-shell:serve:development"
+        },
+        "production": {
+          "serveTarget": "anotate-shell:serve:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "anotate-shell/jest.config.ts"
+      }
+    }
+  }
+}

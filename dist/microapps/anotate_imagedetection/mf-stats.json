@@ -1,0 +1,1289 @@
+{
+  "id": "anotate_imagedetection",
+  "name": "anotate_imagedetection",
+  "metaData": {
+    "name": "anotate_imagedetection",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@bosch-annotate/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "anotate_imagedetection",
+    "pluginVersion": "0.6.16",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@bosch-annotate/anotate-controls",
+      "version": "0.0.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@bosch-annotate/anotate-controls",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8495.js",
+            "869.js",
+            "4357.js",
+            "9073.js",
+            "1512.js",
+            "45.js",
+            "5699.js",
+            "7764.js",
+            "5139.js",
+            "1332.js",
+            "2789.js",
+            "7044.js",
+            "3663.js",
+            "368.js",
+            "3936.js",
+            "5877.js",
+            "2217.js",
+            "2761.js",
+            "9779.js",
+            "7884.js",
+            "1243.js",
+            "9872.js",
+            "824.js",
+            "2206.js",
+            "455.js",
+            "1705.js",
+            "4511.js",
+            "3242.js",
+            "3715.js",
+            "9577.js",
+            "3002.js",
+            "9927.js",
+            "5982.js",
+            "9294.js",
+            "9083.js",
+            "6952.js",
+            "7224.js",
+            "904.js",
+            "1582.js",
+            "9930.js",
+            "9633.js",
+            "5565.js",
+            "6118.js",
+            "9723.js",
+            "8485.js",
+            "80.js",
+            "568.js",
+            "6214.js"
+          ],
+          "sync": [
+            "476.js",
+            "8095.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-accordion",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-accordion",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js",
+            "368.js"
+          ],
+          "sync": [
+            "869.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-alert-dialog",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-alert-dialog",
+      "assets": {
+        "js": {
+          "async": [
+            "5877.js",
+            "80.js",
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "1512.js",
+            "9131.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-aspect-ratio",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-aspect-ratio",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "5383.js",
+            "7764.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-avatar",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-avatar",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "5139.js",
+            "7520.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-checkbox",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-checkbox",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "3663.js",
+            "6044.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-collapsible",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-collapsible",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "368.js",
+            "7987.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.2.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-context-menu",
+      "version": "2.2.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-context-menu",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "6546.js",
+            "7884.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.2",
+      "shareScope": "default",
+      "name": "@radix-ui/react-dialog",
+      "version": "1.0.5",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-dialog",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "568.js",
+            "45.js"
+          ],
+          "sync": [
+            "6214.js",
+            "80.js",
+            "2217.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-dropdown-menu",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-dropdown-menu",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "266.js",
+            "9872.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-hover-card",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-hover-card",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "455.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-label",
+      "version": "2.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-label",
+      "assets": {
+        "js": {
+          "async": [
+            "8485.js",
+            "7552.js",
+            "45.js"
+          ],
+          "sync": [
+            "2206.js",
+            "9825.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-menubar",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-menubar",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "2845.js",
+            "4511.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-navigation-menu",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-navigation-menu",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3242.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-popover",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-popover",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3715.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-progress",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-progress",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "1958.js",
+            "9577.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-radio-group",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-radio-group",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3002.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-scroll-area",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-scroll-area",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "5982.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-select",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-select",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "9294.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-separator",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-separator",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "1464.js",
+            "9083.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-slider",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-slider",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "7224.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-slot",
+      "version": "1.0.2",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-slot",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "568.js",
+            "8187.js",
+            "45.js",
+            "2426.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-switch",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-switch",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "7549.js",
+            "9930.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-tabs",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-tabs",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "9633.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-toast",
+      "version": "1.2.1",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-toast",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "5565.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-toggle-group",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-toggle-group",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js",
+            "6118.js"
+          ],
+          "sync": [
+            "9723.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-toggle",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-toggle",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "3737.js",
+            "6118.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.4",
+      "shareScope": "default",
+      "name": "@radix-ui/react-tooltip",
+      "version": "1.1.4",
+      "eager": false,
+      "id": "anotate_imagedetection:@radix-ui/react-tooltip",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "6952.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.7.1",
+      "shareScope": "default",
+      "name": "class-variance-authority",
+      "version": "0.7.1",
+      "eager": false,
+      "id": "anotate_imagedetection:class-variance-authority",
+      "assets": {
+        "js": {
+          "async": [
+            "4357.js"
+          ],
+          "sync": [
+            "5699.js",
+            "8080.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "name": "clsx",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "anotate_imagedetection:clsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "4357.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "shareScope": "default",
+      "name": "cmdk",
+      "version": "1.0.0",
+      "eager": false,
+      "id": "anotate_imagedetection:cmdk",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js",
+            "568.js",
+            "5877.js",
+            "6214.js"
+          ],
+          "sync": [
+            "1555.js",
+            "3936.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.3.0",
+      "shareScope": "default",
+      "name": "embla-carousel-react",
+      "version": "8.3.0",
+      "eager": false,
+      "id": "anotate_imagedetection:embla-carousel-react",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "2789.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.4",
+      "shareScope": "default",
+      "name": "input-otp",
+      "version": "1.2.4",
+      "eager": false,
+      "id": "anotate_imagedetection:input-otp",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "1705.js",
+            "4086.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.462.0",
+      "shareScope": "default",
+      "name": "lucide-react",
+      "version": "0.462.0",
+      "eager": false,
+      "id": "anotate_imagedetection:lucide-react",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "8495.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.3.0",
+      "shareScope": "default",
+      "name": "next-themes",
+      "version": "0.3.0",
+      "eager": false,
+      "id": "anotate_imagedetection:next-themes",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "904.js",
+            "8523.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.10.1",
+      "shareScope": "default",
+      "name": "react-day-picker",
+      "version": "8.10.1",
+      "eager": false,
+      "id": "anotate_imagedetection:react-day-picker",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "1332.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "anotate_imagedetection:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "8485.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.53.0",
+      "shareScope": "default",
+      "name": "react-hook-form",
+      "version": "7.53.0",
+      "eager": false,
+      "id": "anotate_imagedetection:react-hook-form",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "824.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.3",
+      "shareScope": "default",
+      "name": "react-resizable-panels",
+      "version": "2.1.3",
+      "eager": false,
+      "id": "anotate_imagedetection:react-resizable-panels",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js"
+          ],
+          "sync": [
+            "9927.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "anotate_imagedetection:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "7552.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.12.7",
+      "shareScope": "default",
+      "name": "recharts",
+      "version": "2.12.7",
+      "eager": false,
+      "id": "anotate_imagedetection:recharts",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "4357.js"
+          ],
+          "sync": [
+            "7044.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.5.0",
+      "shareScope": "default",
+      "name": "sonner",
+      "version": "1.5.0",
+      "eager": false,
+      "id": "anotate_imagedetection:sonner",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "8485.js"
+          ],
+          "sync": [
+            "1582.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.5.2",
+      "shareScope": "default",
+      "name": "tailwind-merge",
+      "version": "2.5.2",
+      "eager": false,
+      "id": "anotate_imagedetection:tailwind-merge",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "9073.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.9.3",
+      "shareScope": "default",
+      "name": "vaul",
+      "version": "0.9.3",
+      "eager": false,
+      "id": "anotate_imagedetection:vaul",
+      "assets": {
+        "js": {
+          "async": [
+            "7552.js",
+            "5877.js",
+            "2217.js",
+            "8485.js",
+            "45.js"
+          ],
+          "sync": [
+            "1243.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Module",
+      "id": "anotate_imagedetection:Module",
+      "name": "Module",
+      "requires": [],
+      "file": "src\\remote-entry.ts",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Module.js"
+          ],
+          "async": [
+            "7552.js",
+            "8495.js",
+            "8095.js",
+            "869.js",
+            "4357.js",
+            "9073.js",
+            "1512.js",
+            "45.js",
+            "5699.js",
+            "7764.js",
+            "5139.js",
+            "1332.js",
+            "2789.js",
+            "7044.js",
+            "3663.js",
+            "368.js",
+            "3936.js",
+            "5877.js",
+            "2217.js",
+            "2761.js",
+            "9779.js",
+            "7884.js",
+            "1243.js",
+            "9872.js",
+            "824.js",
+            "2206.js",
+            "455.js",
+            "1705.js",
+            "4511.js",
+            "3242.js",
+            "3715.js",
+            "9577.js",
+            "3002.js",
+            "9927.js",
+            "5982.js",
+            "9294.js",
+            "9083.js",
+            "6952.js",
+            "7224.js",
+            "904.js",
+            "1582.js",
+            "9930.js",
+            "9633.js",
+            "5565.js",
+            "6118.js",
+            "9723.js",
+            "8485.js",
+            "80.js",
+            "568.js",
+            "6214.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

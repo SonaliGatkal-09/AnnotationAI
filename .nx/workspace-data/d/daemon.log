@@ -1,0 +1,83 @@
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:39.120Z - Started listening on: \\.\pipe\nx\C:\Users\GAK1HYD\AppData\Local\Temp\695eb2560f85a80b25ec\d.sock
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:39.122Z - [WATCHER]: Subscribed to changes within: C:\Users\GAK1HYD\Downloads\anotate-shell (native)
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:39.132Z - Established a connection. Number of open connections: 1
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:39.134Z - Closed a connection. Number of open connections: 0
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:39.161Z - Established a connection. Number of open connections: 1
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:39.167Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:40.488Z - Time taken for 'Load Nx Plugin: C:\Users\GAK1HYD\Downloads\anotate-shell\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 1294.3545000000004ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:40.521Z - Time taken for 'Load Nx Plugin: C:\Users\GAK1HYD\Downloads\anotate-shell\node_modules\nx\src\plugins\js' 1333.9760999999999ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:40.550Z - Time taken for 'loadDefaultNxPlugins' 1362.9741ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.269Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 2093.3176ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.918Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.919Z - [REQUEST]: 
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.919Z - [REQUEST]: 
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.931Z - Time taken for 'loadSpecifiedNxPlugins' 2742.0047ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.936Z - Established a connection. Number of open connections: 2
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.936Z - Closed a connection. Number of open connections: 1
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.936Z - Established a connection. Number of open connections: 2
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.939Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.940Z - Done responding to the client handleGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.940Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.970Z - Established a connection. Number of open connections: 3
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.971Z - Established a connection. Number of open connections: 4
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.974Z - Closed a connection. Number of open connections: 3
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.976Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.977Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.977Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.994Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.994Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:41.994Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.012Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.013Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.013Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.671Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.672Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.672Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.679Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.680Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.680Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.686Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.686Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:42.687Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.856Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.857Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.857Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.887Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.887Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.887Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.927Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.927Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.927Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.970Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.971Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:48.971Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.007Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.008Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.008Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.044Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.044Z - Done responding to the client handleHashGlob
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.044Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.215Z - Time taken for 'build-project-configs' 7273.5142ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.217Z - Time taken for '@nx/vite/plugin:createDependencies' 5.973500000000058ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.714Z - [SYNC]: collect registered sync generators
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.715Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.716Z - Time taken for 'total for creating and serializing project graph' 10548.3887ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.718Z - Done responding to the client project-graph
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.719Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 10548. Response time: 4.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.730Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.730Z - Time taken for 'preTasksExecution' 1.525499999999738ms
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.730Z - Done responding to the client handleRunPreTasksExecution
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.730Z - Handled PRE_TASKS_EXECUTION. Handling time: 2. Response time: 0.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.861Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.862Z - Done responding to the client handleHashTasks
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.862Z - Handled HASH_TASKS. Handling time: 29. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.919Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.920Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v21.2.0 Daemon Server] - 2025-06-26T05:21:49.920Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 3. Response time: 1.
+[NX v21.2.0 Daemon Server] - 2025-06-26T08:21:50.126Z - [WATCHER]: Stopping the watcher for C:\Users\GAK1HYD\Downloads\anotate-shell (sources)
+[NX v21.2.0 Daemon Server] - 2025-06-26T08:21:50.127Z - Closed a connection. Number of open connections: 2
+[NX v21.2.0 Daemon Server] - 2025-06-26T08:21:50.127Z - Closed a connection. Number of open connections: 1
+[NX v21.2.0 Daemon Server] - 2025-06-26T08:21:50.127Z - Closed a connection. Number of open connections: 0
+[NX v21.2.0 Daemon Server] - 2025-06-26T08:21:50.127Z - [WATCHER]: Stopping the watcher for C:\Users\GAK1HYD\Downloads\anotate-shell (outputs)
+[NX v21.2.0 Daemon Server] - 2025-06-26T08:21:50.129Z - Server stopped because: "10800000ms of inactivity"

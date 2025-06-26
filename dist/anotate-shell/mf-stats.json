@@ -1,0 +1,1608 @@
+{
+  "id": "anotate-shell",
+  "name": "anotate-shell",
+  "metaData": {
+    "name": "anotate-shell",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@bosch-annotate/source"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "anotate-shell",
+    "pluginVersion": "0.6.16",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@bosch-annotate/anotate-controls",
+      "version": "0.0.1",
+      "eager": false,
+      "id": "anotate-shell:@bosch-annotate/anotate-controls",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "2382.ffb6345db80d8b25.js",
+            "9024.d9afd6c4c06d1a64.js",
+            "2294.6c0375a45d9d4a5e.js",
+            "1750.ed1b31ac250ba4a0.js",
+            "8890.75b818f7ff7472e5.js",
+            "1146.b54e061a07b4ea0d.js",
+            "6399.49551a2182c7dd36.js",
+            "6149.7b5f32badceb2d16.js",
+            "4993.725dc357a50f6121.js",
+            "6094.45e98cbada17c91e.js",
+            "410.bc00791b3b50fde0.js",
+            "8294.3be1c9061ec2bc1a.js",
+            "3590.4c174085080b218e.js",
+            "8491.efa186b9512cb508.js",
+            "475.7df852787c2f070c.js",
+            "2043.29df4d86d9b9c0df.js",
+            "801.8dc3f70a8b1d400a.js",
+            "4059.d47c4ee23d819a4b.js",
+            "2744.1b3b473c5d9cc2a3.js",
+            "1932.e65118ec1111177c.js",
+            "5502.f2295ad7dc982ef9.js",
+            "3536.550695d9a870d71e.js",
+            "9215.58f985618799d3e1.js",
+            "5549.c3c5c9be4c589b17.js",
+            "2632.74079854b15299d0.js",
+            "3278.cbcfb70c0f0b0584.js",
+            "9135.bb1baa76a702d70a.js",
+            "3015.1d2867477b69aff6.js",
+            "9358.aa80da15f76922e0.js",
+            "8532.9bbc80a0c24e518a.js",
+            "5541.8f02b9ef157113ec.js",
+            "391.2f73f194ce7191b8.js",
+            "1125.6569bb24dd75c9a0.js",
+            "9493.d49a8f9b29392bd6.js",
+            "2056.93ba0fe2cd367a6f.js",
+            "9657.282f7155326dbe5f.js",
+            "9245.9aa79ca6a2fbd7d7.js",
+            "9670.1fb6c86c2688310a.js",
+            "1583.a5b0d96d6d85b1ac.js",
+            "3783.9529ae8ebd7cab73.js",
+            "4116.99d59df645cc23c8.js",
+            "616.55d412b3ff2e2c64.js",
+            "4167.c06b3acfb9b0f725.js",
+            "9150.2ed2d67b509be9ae.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "7950.6812e0cf3b572001.js",
+            "6797.66689cec0195aced.js"
+          ],
+          "sync": [
+            "1999.67cb333519b28113.js",
+            "4380.147a1a349e0a9001.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@bosch-annotate/anotate-services",
+      "version": "0.0.1",
+      "eager": false,
+      "id": "anotate-shell:@bosch-annotate/anotate-services",
+      "assets": {
+        "js": {
+          "async": [
+            "9743.2994f9a800b206a5.js"
+          ],
+          "sync": [
+            "7320.681bfd78d91fa9ac.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-accordion",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-accordion",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js",
+            "8491.efa186b9512cb508.js"
+          ],
+          "sync": [
+            "2294.6c0375a45d9d4a5e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-alert-dialog",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-alert-dialog",
+      "assets": {
+        "js": {
+          "async": [
+            "2043.29df4d86d9b9c0df.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "1146.b54e061a07b4ea0d.js",
+            "8765.e53aedd4c42e88a9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-aspect-ratio",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-aspect-ratio",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "4993.725dc357a50f6121.js",
+            "7374.388d45ee35ffa18b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-avatar",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-avatar",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "3713.21c6084be0f0b545.js",
+            "6094.45e98cbada17c91e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-checkbox",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-checkbox",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "1209.d9d2cbae01b1ea1a.js",
+            "3590.4c174085080b218e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-collapsible",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-collapsible",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "872.1887ee15b7f97997.js",
+            "8491.efa186b9512cb508.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.2.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-context-menu",
+      "version": "2.2.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-context-menu",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "1932.e65118ec1111177c.js",
+            "3385.432d8de6a9d5bc32.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.2",
+      "shareScope": "default",
+      "name": "@radix-ui/react-dialog",
+      "version": "1.0.5",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-dialog",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "7950.6812e0cf3b572001.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "6797.66689cec0195aced.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "801.8dc3f70a8b1d400a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-dropdown-menu",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-dropdown-menu",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "3536.550695d9a870d71e.js",
+            "6743.5ca0e78fcb485d78.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-hover-card",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-hover-card",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "2632.74079854b15299d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-label",
+      "version": "2.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-label",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "5549.c3c5c9be4c589b17.js",
+            "7930.556b36b42fc68a05.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-menubar",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-menubar",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "5828.cda0848dfa0fb818.js",
+            "9135.bb1baa76a702d70a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-navigation-menu",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-navigation-menu",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "3015.1d2867477b69aff6.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-popover",
+      "version": "1.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-popover",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "9358.aa80da15f76922e0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-progress",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-progress",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "6151.726fc037760095cd.js",
+            "8532.9bbc80a0c24e518a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-radio-group",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-radio-group",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "5541.8f02b9ef157113ec.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-scroll-area",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-scroll-area",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "1125.6569bb24dd75c9a0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-select",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-select",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "9493.d49a8f9b29392bd6.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-separator",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-separator",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "2056.93ba0fe2cd367a6f.js",
+            "9675.56143d2c6085334d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-slider",
+      "version": "1.2.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-slider",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "9245.9aa79ca6a2fbd7d7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-slot",
+      "version": "1.0.2",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-slot",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "5569.727b8e5096f47e19.js",
+            "7950.6812e0cf3b572001.js",
+            "6399.49551a2182c7dd36.js",
+            "8780.a902dc9a7ef32fd7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-switch",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-switch",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "3783.9529ae8ebd7cab73.js",
+            "6164.9f1c683e7ea7ef48.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-tabs",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-tabs",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "4116.99d59df645cc23c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.1",
+      "shareScope": "default",
+      "name": "@radix-ui/react-toast",
+      "version": "1.2.1",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-toast",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "616.55d412b3ff2e2c64.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-toggle-group",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-toggle-group",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js",
+            "4167.c06b3acfb9b0f725.js"
+          ],
+          "sync": [
+            "9150.2ed2d67b509be9ae.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.0",
+      "shareScope": "default",
+      "name": "@radix-ui/react-toggle",
+      "version": "1.1.0",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-toggle",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "3696.c2091bb3e8be26d0.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "4167.c06b3acfb9b0f725.js",
+            "6548.c9c8fc7555fb2599.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.1.4",
+      "shareScope": "default",
+      "name": "@radix-ui/react-tooltip",
+      "version": "1.1.4",
+      "eager": false,
+      "id": "anotate-shell:@radix-ui/react-tooltip",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "9657.282f7155326dbe5f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.56.2",
+      "shareScope": "default",
+      "name": "@tanstack/react-query",
+      "version": "5.56.2",
+      "eager": false,
+      "id": "anotate-shell:@tanstack/react-query",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "6926.78ea29342ec6dcb8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "anotate_imagecreation/Module",
+      "version": "0.0.0",
+      "eager": false,
+      "id": "anotate-shell:anotate_imagecreation/Module",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "4380.147a1a349e0a9001.js",
+            "2382.ffb6345db80d8b25.js",
+            "9024.d9afd6c4c06d1a64.js",
+            "2294.6c0375a45d9d4a5e.js",
+            "1750.ed1b31ac250ba4a0.js",
+            "8890.75b818f7ff7472e5.js",
+            "1146.b54e061a07b4ea0d.js",
+            "6399.49551a2182c7dd36.js",
+            "6149.7b5f32badceb2d16.js",
+            "4993.725dc357a50f6121.js",
+            "6094.45e98cbada17c91e.js",
+            "410.bc00791b3b50fde0.js",
+            "8294.3be1c9061ec2bc1a.js",
+            "3590.4c174085080b218e.js",
+            "8491.efa186b9512cb508.js",
+            "475.7df852787c2f070c.js",
+            "2043.29df4d86d9b9c0df.js",
+            "801.8dc3f70a8b1d400a.js",
+            "4059.d47c4ee23d819a4b.js",
+            "2744.1b3b473c5d9cc2a3.js",
+            "1932.e65118ec1111177c.js",
+            "5502.f2295ad7dc982ef9.js",
+            "3536.550695d9a870d71e.js",
+            "9215.58f985618799d3e1.js",
+            "5549.c3c5c9be4c589b17.js",
+            "2632.74079854b15299d0.js",
+            "3278.cbcfb70c0f0b0584.js",
+            "9135.bb1baa76a702d70a.js",
+            "3015.1d2867477b69aff6.js",
+            "9358.aa80da15f76922e0.js",
+            "8532.9bbc80a0c24e518a.js",
+            "5541.8f02b9ef157113ec.js",
+            "391.2f73f194ce7191b8.js",
+            "1125.6569bb24dd75c9a0.js",
+            "9493.d49a8f9b29392bd6.js",
+            "2056.93ba0fe2cd367a6f.js",
+            "9657.282f7155326dbe5f.js",
+            "9245.9aa79ca6a2fbd7d7.js",
+            "9670.1fb6c86c2688310a.js",
+            "1583.a5b0d96d6d85b1ac.js",
+            "3783.9529ae8ebd7cab73.js",
+            "4116.99d59df645cc23c8.js",
+            "616.55d412b3ff2e2c64.js",
+            "4167.c06b3acfb9b0f725.js",
+            "9150.2ed2d67b509be9ae.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "7950.6812e0cf3b572001.js",
+            "6797.66689cec0195aced.js"
+          ],
+          "sync": [
+            "362.4e233630d2e80ad0.js",
+            "7981.6619d024448c0de3.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "anotate_imagedetection/Module",
+      "version": "0.0.0",
+      "eager": false,
+      "id": "anotate-shell:anotate_imagedetection/Module",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "4380.147a1a349e0a9001.js",
+            "2382.ffb6345db80d8b25.js",
+            "9024.d9afd6c4c06d1a64.js",
+            "2294.6c0375a45d9d4a5e.js",
+            "1750.ed1b31ac250ba4a0.js",
+            "8890.75b818f7ff7472e5.js",
+            "1146.b54e061a07b4ea0d.js",
+            "6399.49551a2182c7dd36.js",
+            "6149.7b5f32badceb2d16.js",
+            "4993.725dc357a50f6121.js",
+            "6094.45e98cbada17c91e.js",
+            "410.bc00791b3b50fde0.js",
+            "8294.3be1c9061ec2bc1a.js",
+            "3590.4c174085080b218e.js",
+            "8491.efa186b9512cb508.js",
+            "475.7df852787c2f070c.js",
+            "2043.29df4d86d9b9c0df.js",
+            "801.8dc3f70a8b1d400a.js",
+            "4059.d47c4ee23d819a4b.js",
+            "2744.1b3b473c5d9cc2a3.js",
+            "1932.e65118ec1111177c.js",
+            "5502.f2295ad7dc982ef9.js",
+            "3536.550695d9a870d71e.js",
+            "9215.58f985618799d3e1.js",
+            "5549.c3c5c9be4c589b17.js",
+            "2632.74079854b15299d0.js",
+            "3278.cbcfb70c0f0b0584.js",
+            "9135.bb1baa76a702d70a.js",
+            "3015.1d2867477b69aff6.js",
+            "9358.aa80da15f76922e0.js",
+            "8532.9bbc80a0c24e518a.js",
+            "5541.8f02b9ef157113ec.js",
+            "391.2f73f194ce7191b8.js",
+            "1125.6569bb24dd75c9a0.js",
+            "9493.d49a8f9b29392bd6.js",
+            "2056.93ba0fe2cd367a6f.js",
+            "9657.282f7155326dbe5f.js",
+            "9245.9aa79ca6a2fbd7d7.js",
+            "9670.1fb6c86c2688310a.js",
+            "1583.a5b0d96d6d85b1ac.js",
+            "3783.9529ae8ebd7cab73.js",
+            "4116.99d59df645cc23c8.js",
+            "616.55d412b3ff2e2c64.js",
+            "4167.c06b3acfb9b0f725.js",
+            "9150.2ed2d67b509be9ae.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "7950.6812e0cf3b572001.js",
+            "6797.66689cec0195aced.js"
+          ],
+          "sync": [
+            "5391.68ec394c9e10a0e4.js",
+            "7772.0433eaf67875ec71.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "anotate_imagesearch/Module",
+      "version": "0.0.0",
+      "eager": false,
+      "id": "anotate-shell:anotate_imagesearch/Module",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "4380.147a1a349e0a9001.js",
+            "2382.ffb6345db80d8b25.js",
+            "9024.d9afd6c4c06d1a64.js",
+            "2294.6c0375a45d9d4a5e.js",
+            "1750.ed1b31ac250ba4a0.js",
+            "8890.75b818f7ff7472e5.js",
+            "1146.b54e061a07b4ea0d.js",
+            "6399.49551a2182c7dd36.js",
+            "6149.7b5f32badceb2d16.js",
+            "4993.725dc357a50f6121.js",
+            "6094.45e98cbada17c91e.js",
+            "410.bc00791b3b50fde0.js",
+            "8294.3be1c9061ec2bc1a.js",
+            "3590.4c174085080b218e.js",
+            "8491.efa186b9512cb508.js",
+            "475.7df852787c2f070c.js",
+            "2043.29df4d86d9b9c0df.js",
+            "801.8dc3f70a8b1d400a.js",
+            "4059.d47c4ee23d819a4b.js",
+            "2744.1b3b473c5d9cc2a3.js",
+            "1932.e65118ec1111177c.js",
+            "5502.f2295ad7dc982ef9.js",
+            "3536.550695d9a870d71e.js",
+            "9215.58f985618799d3e1.js",
+            "5549.c3c5c9be4c589b17.js",
+            "2632.74079854b15299d0.js",
+            "3278.cbcfb70c0f0b0584.js",
+            "9135.bb1baa76a702d70a.js",
+            "3015.1d2867477b69aff6.js",
+            "9358.aa80da15f76922e0.js",
+            "8532.9bbc80a0c24e518a.js",
+            "5541.8f02b9ef157113ec.js",
+            "391.2f73f194ce7191b8.js",
+            "1125.6569bb24dd75c9a0.js",
+            "9493.d49a8f9b29392bd6.js",
+            "2056.93ba0fe2cd367a6f.js",
+            "9657.282f7155326dbe5f.js",
+            "9245.9aa79ca6a2fbd7d7.js",
+            "9670.1fb6c86c2688310a.js",
+            "1583.a5b0d96d6d85b1ac.js",
+            "3783.9529ae8ebd7cab73.js",
+            "4116.99d59df645cc23c8.js",
+            "616.55d412b3ff2e2c64.js",
+            "4167.c06b3acfb9b0f725.js",
+            "9150.2ed2d67b509be9ae.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "7950.6812e0cf3b572001.js",
+            "6797.66689cec0195aced.js"
+          ],
+          "sync": [
+            "6405.b5a7cdee795dbcee.js",
+            "8786.8ff98c27602bb183.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "anotate_imagesimilaritysearch/Module",
+      "version": "0.0.0",
+      "eager": false,
+      "id": "anotate-shell:anotate_imagesimilaritysearch/Module",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "4380.147a1a349e0a9001.js",
+            "2382.ffb6345db80d8b25.js",
+            "9024.d9afd6c4c06d1a64.js",
+            "2294.6c0375a45d9d4a5e.js",
+            "1750.ed1b31ac250ba4a0.js",
+            "8890.75b818f7ff7472e5.js",
+            "1146.b54e061a07b4ea0d.js",
+            "6399.49551a2182c7dd36.js",
+            "6149.7b5f32badceb2d16.js",
+            "4993.725dc357a50f6121.js",
+            "6094.45e98cbada17c91e.js",
+            "410.bc00791b3b50fde0.js",
+            "8294.3be1c9061ec2bc1a.js",
+            "3590.4c174085080b218e.js",
+            "8491.efa186b9512cb508.js",
+            "475.7df852787c2f070c.js",
+            "2043.29df4d86d9b9c0df.js",
+            "801.8dc3f70a8b1d400a.js",
+            "4059.d47c4ee23d819a4b.js",
+            "2744.1b3b473c5d9cc2a3.js",
+            "1932.e65118ec1111177c.js",
+            "5502.f2295ad7dc982ef9.js",
+            "3536.550695d9a870d71e.js",
+            "9215.58f985618799d3e1.js",
+            "5549.c3c5c9be4c589b17.js",
+            "2632.74079854b15299d0.js",
+            "3278.cbcfb70c0f0b0584.js",
+            "9135.bb1baa76a702d70a.js",
+            "3015.1d2867477b69aff6.js",
+            "9358.aa80da15f76922e0.js",
+            "8532.9bbc80a0c24e518a.js",
+            "5541.8f02b9ef157113ec.js",
+            "391.2f73f194ce7191b8.js",
+            "1125.6569bb24dd75c9a0.js",
+            "9493.d49a8f9b29392bd6.js",
+            "2056.93ba0fe2cd367a6f.js",
+            "9657.282f7155326dbe5f.js",
+            "9245.9aa79ca6a2fbd7d7.js",
+            "9670.1fb6c86c2688310a.js",
+            "1583.a5b0d96d6d85b1ac.js",
+            "3783.9529ae8ebd7cab73.js",
+            "4116.99d59df645cc23c8.js",
+            "616.55d412b3ff2e2c64.js",
+            "4167.c06b3acfb9b0f725.js",
+            "9150.2ed2d67b509be9ae.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "8405.696eb2f2d1ac9df1.js",
+            "7950.6812e0cf3b572001.js",
+            "6797.66689cec0195aced.js"
+          ],
+          "sync": [
+            "4815.9de84331f54f7744.js",
+            "7196.150abdd12e523c80.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.10.0",
+      "shareScope": "default",
+      "name": "axios",
+      "version": "1.10.0",
+      "eager": false,
+      "id": "anotate-shell:axios",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "9743.2994f9a800b206a5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.7.1",
+      "shareScope": "default",
+      "name": "class-variance-authority",
+      "version": "0.7.1",
+      "eager": false,
+      "id": "anotate-shell:class-variance-authority",
+      "assets": {
+        "js": {
+          "async": [
+            "1750.ed1b31ac250ba4a0.js"
+          ],
+          "sync": [
+            "6149.7b5f32badceb2d16.js",
+            "8530.796ede67312e2868.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "name": "clsx",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "anotate-shell:clsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "1750.ed1b31ac250ba4a0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "shareScope": "default",
+      "name": "cmdk",
+      "version": "1.0.0",
+      "eager": false,
+      "id": "anotate-shell:cmdk",
+      "assets": {
+        "js": {
+          "async": [
+            "8325.8df8f9305a9e4cd9.js",
+            "7950.6812e0cf3b572001.js",
+            "2043.29df4d86d9b9c0df.js",
+            "6797.66689cec0195aced.js",
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "475.7df852787c2f070c.js",
+            "2856.ece6b495a01e17b9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.3.0",
+      "shareScope": "default",
+      "name": "embla-carousel-react",
+      "version": "8.3.0",
+      "eager": false,
+      "id": "anotate-shell:embla-carousel-react",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "8294.3be1c9061ec2bc1a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.2.4",
+      "shareScope": "default",
+      "name": "input-otp",
+      "version": "1.2.4",
+      "eager": false,
+      "id": "anotate-shell:input-otp",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "897.dedace6d0afbf98c.js",
+            "3278.cbcfb70c0f0b0584.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.462.0",
+      "shareScope": "default",
+      "name": "lucide-react",
+      "version": "0.462.0",
+      "eager": false,
+      "id": "anotate-shell:lucide-react",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "2382.ffb6345db80d8b25.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.3.0",
+      "shareScope": "default",
+      "name": "next-themes",
+      "version": "0.3.0",
+      "eager": false,
+      "id": "anotate-shell:next-themes",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "2051.61250738d098b9e4.js",
+            "9670.1fb6c86c2688310a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.10.1",
+      "shareScope": "default",
+      "name": "react-day-picker",
+      "version": "8.10.1",
+      "eager": false,
+      "id": "anotate-shell:react-day-picker",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "410.bc00791b3b50fde0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "anotate-shell:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "8325.8df8f9305a9e4cd9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.53.0",
+      "shareScope": "default",
+      "name": "react-hook-form",
+      "version": "7.53.0",
+      "eager": false,
+      "id": "anotate-shell:react-hook-form",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "9215.58f985618799d3e1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.3",
+      "shareScope": "default",
+      "name": "react-resizable-panels",
+      "version": "2.1.3",
+      "eager": false,
+      "id": "anotate-shell:react-resizable-panels",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "391.2f73f194ce7191b8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^6.11.2",
+      "shareScope": "default",
+      "name": "react-router-dom",
+      "version": "6.11.2",
+      "eager": false,
+      "id": "anotate-shell:react-router-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js"
+          ],
+          "sync": [
+            "662.33a2254bb4d4a366.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "anotate-shell:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "3696.c2091bb3e8be26d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.12.7",
+      "shareScope": "default",
+      "name": "recharts",
+      "version": "2.12.7",
+      "eager": false,
+      "id": "anotate-shell:recharts",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "1750.ed1b31ac250ba4a0.js"
+          ],
+          "sync": [
+            "9024.d9afd6c4c06d1a64.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.5.0",
+      "shareScope": "default",
+      "name": "sonner",
+      "version": "1.5.0",
+      "eager": false,
+      "id": "anotate-shell:sonner",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "8325.8df8f9305a9e4cd9.js"
+          ],
+          "sync": [
+            "1583.a5b0d96d6d85b1ac.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.5.2",
+      "shareScope": "default",
+      "name": "tailwind-merge",
+      "version": "2.5.2",
+      "eager": false,
+      "id": "anotate-shell:tailwind-merge",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "8890.75b818f7ff7472e5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.9.3",
+      "shareScope": "default",
+      "name": "vaul",
+      "version": "0.9.3",
+      "eager": false,
+      "id": "anotate-shell:vaul",
+      "assets": {
+        "js": {
+          "async": [
+            "3696.c2091bb3e8be26d0.js",
+            "2043.29df4d86d9b9c0df.js",
+            "801.8dc3f70a8b1d400a.js",
+            "8325.8df8f9305a9e4cd9.js",
+            "6399.49551a2182c7dd36.js"
+          ],
+          "sync": [
+            "5502.f2295ad7dc982ef9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": []
+}

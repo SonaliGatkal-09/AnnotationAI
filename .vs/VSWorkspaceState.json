@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\anotate-shell",
+    "\\anotate-shell\\src",
+    "\\anotate-shell\\src\\app",
+    "\\anotate-shell\\src\\app\\routes",
+    "\\libs",
+    "\\libs\\controls",
+    "\\libs\\controls\\src",
+    "\\libs\\controls\\src\\lib",
+    "\\libs\\controls\\src\\lib\\hooks"
+  ],
+  "SelectedNode": "\\libs\\controls\\src\\lib\\hooks\\use-toast.ts",
+  "PreviewInSolutionExplorer": false
+}
